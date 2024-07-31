@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font: arial;
-    background-color: #222;
+    background-color: #000;
 }
 
 /* Container Section */
@@ -13,7 +13,7 @@ body {
     border-left: 2px solid #ff8c00;
     border-right: 2px solid #ff8c00;
     padding: 50px 0;
-    background-color: #000;
+    background-color: #222;
 }
 
 /* Header Section */
@@ -31,7 +31,7 @@ body {
 }
 
 .title{
-    color: #fff;
+    color: #00ff04;
     font-size: 32px;
     font-weight: bold;
 }
@@ -44,7 +44,7 @@ body {
 
 .link {
     text-decoration: none;
-    color: #00ff04;
+    color: #fff;
     margin: 0 5px;
     transition: color 0.3s;
 }
@@ -74,10 +74,21 @@ body {
 
 .blog ul li a{
     text-decoration: none;
-    color: #ff8c00;
+    color: #000000;
     font-size: 28px;
+    font-weight: bold;
 }
 
 .blog ul li a:hover{
-    color: #00ff04;
+    color: #ff8c00;
+}
+
+.color1{
+    background-color: #ffe9c5;
+    padding: 20px;
+}
+
+.color2{
+    background-color: #feffe2;
+    padding: 20px;
 }
